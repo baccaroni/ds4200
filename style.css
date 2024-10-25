@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    
+    scroll-behavior: smooth;
+  }
+title {
+    padding: 10px;
+    text-decoration: none;
+    color: white
+}
+
+
+/* Header Styles */
+.header {
+    padding: 10px;
+    background-color: black;
+    text-align: right;
+}
+
+.header a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f0edf0;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 20px; /* Add padding to make them look like buttons */
+    background-color: black; /* Button background */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid black; /* Border color */
+    
+}
+
+.header a:hover {
+    background-color: #1e293b; /* Button hover background */
+    color: white; /* Change text color on hover */
+}
+
+/* Button Style for Links */
+.button-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black; 
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding to make it look like a button */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    
+}
+
+.button-link:hover {
+    background-color: #1e293b; /* Darken background on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Body Content Styles */
+body {
+    font-family: 'Lora';
+    src: url("https://fonts.googleapis.com/css?family=Lora")
+      format("truetype");
+    line-height: 1.6;
+    background-color: black
+    
+}
+
+h3.title {
+    font-family: 'Playfair Display';
+    src: url("https://fonts.googleapis.com/css?family=Playfair Display")
+      format("truetype");
+    font-style: italic;
+    color: white; /* Change the text color to white */
+    margin-bottom: 10px;
+    font-size: 30px;
+   
+}
+
+
+
+p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out; /* Apply animation */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Flexbox for Content Container */
+.content-container {
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing between image and text */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Adds some space between the text and the image */
+    margin-top: 20px;
+}
+
+/* Styling for the text section */
+.text-section {
+    flex: 1; /* Allows the text section to take up available space */
+    max-width: 60%; /* Set a max width for the text section */
+}
+
+/* Styling for the image section */
+.photo-section {
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    max-width: 35%; /* Set a max width for the image section */
+}
+
+.photo-section img {
+    width: 100%; /* Ensure the image scales within the container */
+    height: auto; /* Keep the image aspect ratio */
+}
+
+
+/* Link Styles */
+.more-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more-info a {
+    text-decoration: none;
+    color: #0077b5;
+}
+
+.more-info a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+
